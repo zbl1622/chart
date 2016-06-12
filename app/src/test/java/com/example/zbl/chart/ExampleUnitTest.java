@@ -1,0 +1,20 @@
+package com.example.zbl.chart;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+/**
+ * To work on unit tests, switch the Test Artifact in the Build Variants view.
+ */
+public class ExampleUnitTest {
+    @Test
+    public void addition_isCorrect() throws Exception {
+        assertEquals(4, 2 + 2);
+    }
+
+    @Test
+    public void testChangeColorAlpha(){
+        System.out.println(Integer.toString(ColorUtil.setAlpha(0xFF808080,0x33),16));
+    }
+}
